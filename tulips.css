@@ -6,8 +6,9 @@
 */
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    background-color: #d3c9e4;
+    font-weight: bold;
     color: #222222;
     line-height: 1.6;
     padding: 20px;
@@ -81,7 +82,7 @@ body {
   }
   
   th, td {
-    border: 1px solid #ccc;
+    border: 1px solid #660a0a;
     padding: 0.5em;
     text-align: left;
   }
@@ -100,7 +101,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap; /* makes it responsive */
+    flex-wrap: wrap; 
     margin-top: 20px;
     text-align: center;
   }
