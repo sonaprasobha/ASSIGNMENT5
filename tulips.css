@@ -1,6 +1,6 @@
 /* 
-  Name: 
-  File: 
+  Name: sona bijumon prasobha
+  File: tulips.css
   Date: 08 April 2025
   Description: Styles for accessible tulip facts page
 */
@@ -94,4 +94,27 @@ body {
   #toggle-comments {
     margin-top: 1em;
   }
+.image-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /* makes it responsive */
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .image-row img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .image-row figcaption {
+    width: 100%;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
   
