@@ -1,0 +1,96 @@
+/* 
+  Name: 
+  File: 
+  Date: 08 April 2025
+  Description: Styles for accessible tulip facts page
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #8b0000;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #006400;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  form {
+    margin-top: 1em;
+  }
+  
+  form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+  }
+  
+  input[type="text"],
+  input[type="search"],
+  textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  button {
+    background-color: #8b0000;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5a0000;
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    text-align: left;
+  }
+  
+  caption {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  #toggle-comments {
+    margin-top: 1em;
+  }
+  
