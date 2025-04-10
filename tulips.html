@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Fascinating Facts About Tulips</title>
+  <link rel="stylesheet" href="tulips.css">
+</head>
+<body>
+
+  <!-- 
+    Name: 
+    File: tulips.html
+    Date: 8 April 2025
+    A very brief description of the accessible article webpage about tulips.
+  -->
+
+  <a href="#main" class="sr-only">Skip to main content</a>
+
+  <header>
+    <h1>Welcome to our Floral Discovery Site</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Flowers</a></li>
+        <li><a href="#">Gardening Tips</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <form action="#" method="get" aria-label="Search the site">
+        <label for="search" class="sr-only">Search query</label>
+        <input type="search" id="search" placeholder="Search tulip facts">
+        <button type="submit">Go!</button>
+      </form>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article>
+      <h2>Fascinating Facts About Tulips</h2>
+      <p><strong>By Flora Fields</strong></p>
+
+      <p>Tulips are not just beautiful spring flowers — they also have a rich cultural and economic history. From royal gardens to floral festivals, tulips continue to captivate people worldwide.</p>
+
+      <section>
+        <h3>Origins and History</h3>
+        <p>Tulips originated in Central Asia and became highly popular in the Ottoman Empire. In the 17th century, the Netherlands experienced "Tulip Mania" — a period when tulip bulbs were traded like currency.</p>
+      </section>
+
+      <section>
+        <h3>Colorful Meanings</h3>
+        <p>Different colors of tulips symbolize different things: red for love, yellow for cheerfulness, white for forgiveness, and purple for royalty. There are over 3,000 varieties!</p>
+      </section>
+
+      <figure>
+        <img src="tulips.jpg.jpg" alt="Close-up of colorful tulips in a field">
+        <figcaption>Tulips blooming during spring in Holland.</figcaption>
+      </figure>
+
+      <section>
+        <h3>Tulip Talk (Audio)</h3>
+        <audio controls>
+          <source src="audio/tulip.mp3" type="audio/mpeg">
+          Your browser does not support the audio element. 
+          <a href="audio/tulip.mp3">Download the tulip audio</a>
+        </audio>
+        <details>
+          <summary>Transcript of the tulip audio</summary>
+          <p>Tulips are brightly colored flowers that bloom in spring. They come in many varieties and symbolize love and renewal. Originating in Central Asia, tulips became a symbol of beauty and wealth in seventeenth century Europe.</p>
+        </details>
+      </section>
+      
+    </article>
+
+    <section>
+      <h3>Leave a Comment</h3>
+      <form action="#" method="post">
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username">
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h3>Reader Comments</h3>
+      <button id="toggle-comments">Show Comments</button>
+      <div id="comments-section" hidden>
+        <p><strong>Emily:</strong> I didn’t know tulips had such a long history!</p>
+        <p><strong>Ray:</strong> This makes me want to plant some in my garden!</p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Tulip Varieties Table</h3>
+      <table>
+        <caption>Popular Tulip Types and Characteristics</caption>
+        <thead>
+          <tr>
+            <th scope="col">Variety</th>
+            <th scope="col">Color</th>
+            <th scope="col">Bloom Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Darwin Hybrid</th>
+            <td>Red, Yellow</td>
+            <td>Mid-Spring</td>
+          </tr>
+          <tr>
+            <th scope="row">Parrot Tulip</th>
+            <td>Mixed Colors</td>
+            <td>Late Spring</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tulip Enthusiasts Worldwide</p>
+  </footer>
+
+  <script src="tulips.js"></script>
+</body>
+</html>
